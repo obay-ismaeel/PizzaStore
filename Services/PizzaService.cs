@@ -6,19 +6,19 @@ namespace PizzaStore.Services
     public class PizzaService
     {
         static List<Pizza> Pizzas { get; }
-        static int nextId = 3;
+        static int nextId = 6;
         static PizzaService()
         {
             Pizzas = new List<Pizza>
-        {
-            new Pizza { Id = 1, Name = "Classic Italian", IsGlutenFree = false },
-            new Pizza { Id = 2, Name = "Veggie", IsGlutenFree = true },
-            new Pizza { Id = 3, Name = "Peperoni", IsGlutenFree = false },
-            new Pizza { Id = 4, Name = "Four Seasons", IsGlutenFree = true },
-            new Pizza { Id = 5, Name = "Roman", IsGlutenFree = true },
-            new Pizza { Id = 4, Name = "NewYork", IsGlutenFree = true },
-            new Pizza { Id = 5, Name = "Greek", IsGlutenFree = false }
-        };
+            {
+                new Pizza { Id = 1, Name = "Classic Italian", IsGlutenFree = false },
+                new Pizza { Id = 2, Name = "Veggie", IsGlutenFree = true },
+                new Pizza { Id = 3, Name = "Peperoni", IsGlutenFree = false },
+                new Pizza { Id = 4, Name = "Four Seasons", IsGlutenFree = true },
+                new Pizza { Id = 5, Name = "Roman", IsGlutenFree = true },
+                new Pizza { Id = 4, Name = "NewYork", IsGlutenFree = true },
+                new Pizza { Id = 5, Name = "Greek", IsGlutenFree = false }
+            };
         }
 
         public static List<Pizza> GetAll() => Pizzas;
