@@ -15,7 +15,9 @@ namespace PizzaStore.Services
             new Pizza { Id = 2, Name = "Veggie", IsGlutenFree = true },
             new Pizza { Id = 3, Name = "Peperoni", IsGlutenFree = false },
             new Pizza { Id = 4, Name = "Four Seasons", IsGlutenFree = true },
-            new Pizza { Id = 5, Name = "Roman", IsGlutenFree = true }
+            new Pizza { Id = 5, Name = "Roman", IsGlutenFree = true },
+            new Pizza { Id = 4, Name = "NewYork", IsGlutenFree = true },
+            new Pizza { Id = 5, Name = "Greek", IsGlutenFree = false }
         };
         }
 
